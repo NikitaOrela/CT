@@ -123,6 +123,7 @@ curl "https://gymnasium642.spb.ru/..%2f..%2f..%2fetc%2fpasswd"
 Метод проверки:
 ffuf -u "https://gymnasium642.spb.ru/FUZZ" -w ~/Desktop/CT/baza.txt -fc 403,404
 Взял базу для проверки из интернета
+
 <img width="452" height="300" alt="image" src="https://github.com/user-attachments/assets/649d6b85-1b2a-4ff2-b63a-514d2120d1f2" />
  
 
@@ -146,10 +147,12 @@ curl "https://gymnasium642.spb.ru/?wsdl"
 Результаты:
 
 Страница /users/login доступна, но требует аутентификации 
+
 <img width="372" height="283" alt="image" src="https://github.com/user-attachments/assets/afe413f9-8ab5-4de1-a718-465f86f114bd" />
 
 WSDL endpoint недоступен (таймаут)
 Числовые страницы возвращают контент, но не раскрывают критической информации
+
 <img width="284" height="215" alt="image" src="https://github.com/user-attachments/assets/35827ae2-8a22-4f87-b9c6-7354c1338625" />
  
 
@@ -157,6 +160,7 @@ WSDL endpoint недоступен (таймаут)
 
 
 3. Анализируем файл robots.txt:
+   
 <img width="242" height="315" alt="image" src="https://github.com/user-attachments/assets/f4bdbef6-6702-48f7-bcee-356e4af775a8" />
  
 
@@ -171,6 +175,7 @@ WSDL endpoint недоступен (таймаут)
 curl "https://gymnasium642.spb.ru/my/"
 curl "https://gymnasium642.spb.ru/thumb/"
 curl "https://gymnasium642.spb.ru/d/"
+
 <img width="452" height="110" alt="image" src="https://github.com/user-attachments/assets/a0761809-e890-456b-ac98-d50ef9d53c41" />
 
  
@@ -201,4 +206,5 @@ curl "https://gymnasium642.spb.ru/d/"
 Защита от Path Traversal атак
 Соблюдение правил robots.txt
 Отсутствие открытых конфигурационных файлов
+
 <img width="454" height="34" alt="image" src="https://github.com/user-attachments/assets/11bd0516-2dec-45d5-a395-c056004cc5b6" />
