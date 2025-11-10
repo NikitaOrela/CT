@@ -101,10 +101,12 @@ Alias для путей - /static/ корректно работает
 Методы проверки:
 curl "https://gymnasium642.spb.ru/../../../etc/passwd"
 curl "https://gymnasium642.spb.ru/..%2f..%2f..%2fetc%2fpasswd"
+
 <img width="452" height="255" alt="image" src="https://github.com/user-attachments/assets/245ce8bd-662b-4760-b267-0ecee50d4c2d" />
 
  
 <title>Страница не найдена</title>
+
 <img width="452" height="93" alt="image" src="https://github.com/user-attachments/assets/f6802759-d6e9-46ed-9c9e-7c58f7ae2bdb" />
  
 
